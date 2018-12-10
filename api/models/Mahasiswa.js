@@ -12,6 +12,7 @@ module.exports = {
     id: {
       type: 'number',
       autoIncrement: true,
+      columnName: '_id'
    },
    name: {
       type: 'string'

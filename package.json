@@ -1,0 +1,37 @@
+{
+  "name": "ti-16-api",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@sailshq/connect-redis": "^3.2.1",
+    "@sailshq/lodash": "^3.10.3",
+    "@sailshq/socket.io-redis": "^5.2.0",
+    "async": "2.0.1",
+    "grunt": "1.0.1",
+    "sails": "^1.0.2",
+    "sails-hook-grunt": "^3.0.2",
+    "sails-hook-orm": "^2.0.0-16",
+    "sails-hook-sockets": "^1.4.0",
+    "sails-mongo": "^1.0.1",
+    "sails-mysql": "^1.0.1"
+  },
+  "devDependencies": {
+    "@sailshq/eslint": "^4.19.3"
+  },
+  "scripts": {
+    "start": "sails lift",
+    "debug": "node debug app.js"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isfaaghyth/ti-16-api.git"
+  },
+  "author": "isfaaghyth",
+  "license": "",
+  "engines": {
+    "node": ">=8.12"
+  }
+}

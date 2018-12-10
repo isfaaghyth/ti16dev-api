@@ -48,8 +48,8 @@ module.exports.datastores = {
     *    (See https://sailsjs.com/config/datastores for help.)                 *
     *                                                                          *
     ***************************************************************************/
-    adapter: 'sails-mysql',
-    url: 'mysql://isfaaghyth:cobaja@127.0.0.1:3306/ti16api',
+    adapter: 'sails-mongo',
+    url: 'mongodb://isfa:isfa123@ds237373.mlab.com:37373/ti16api',
 
   },
 
